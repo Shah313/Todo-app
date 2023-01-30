@@ -1,0 +1,100 @@
+/* 
+
+
+
+
+
+
+
+
+
+
+
+.alert{
+	position: relative;
+	
+	left: 85%;
+	display: flex;
+	align-items: center;
+	
+	border-radius: 3px;
+	transition: all 0.2s ease;
+	background: #def2d6;
+
+	justify-content: center;
+	
+}
+
+
+
+.alert .alertSuccess{
+	position: absolute;
+	display: flex;
+	
+	align-items: center;
+	padding: 15px 30px;
+	border-radius: 3px;
+    background: #def2d6;
+	color: #5a7052;
+	transition: all 0.2s ease;
+	bottom: 0;
+	top:0;
+}
+
+.alertItem .icon {
+	font-size: 32px;
+}
+
+/* .alert_item.alert_success{
+	background: #def2d6;
+	color: #5a7052;
+}
+ 
+
+.alert .alertItem .data{
+	margin: 5px 5px;
+}
+.alert .alertItem .data .title{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.alert .alertItem .data span{
+	font-weight: 400;
+}
+.alert .alertItem .data .sub{
+	font-size: 10px;
+	font-weight: 100;
+}
+
+
+ */
+
+.alert-success {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;  
+  z-index: 9999;
+  font-size: 1.5rem;
+  animation: fadeOut 3s;
+}
+   
+ 
+
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+} 
+
+
+
+.alert-success i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
